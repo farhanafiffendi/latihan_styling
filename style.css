@@ -77,12 +77,12 @@
 
 .company {
   /* border: 1px solid black; */
-  width: 400px;
+  width: 380px;
   padding: 30px;
   border-radius: 20px;
   background-color: rgb(118, 118, 255);
   color: white;
-  height: 500px;
+  height: 520px;
   box-sizing: border-box;
   margin: auto;
 }
@@ -95,6 +95,10 @@
 
 #darkmode .navbar {
   background: rgb(82, 82, 82) !important;
+}
+
+#darkmode .navbar-brand {
+  color: white !important;
 }
 
 #darkmode .jarak ul li a {
@@ -116,6 +120,26 @@
 
 #darkmode .cardStyle .card h2 {
   color: black !important;
+}
+
+#darkmode .priceStyle .price {
+  background: white;
+  color: black;
+}
+
+#darkmode .priceStyle .this {
+  background-color: rgb(118, 118, 255);
+  color: white;
+}
+
+#darkmode .alert {
+  background: white;
+  color: black;
+}
+
+#darkmode .review {
+  background: white;
+  color: black;
 }
 
 /* responsive dekstop */
