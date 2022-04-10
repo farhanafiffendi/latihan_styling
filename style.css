@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jarak ul li {
+  margin-left: 20px;
+}
+
+.jarak button {
+  margin-left: 20px;
+}
+
+.btn-sign {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+}
+
+.textBorder {
+  /* border: 1px solid black; */
+  /* width: 100px; */
+  padding: 5px 20px;
+  margin-left: 20px;
+  border-radius: 50px;
+  height: 40px;
+  box-shadow: 0 3px 10px rgba(107, 106, 106, 0.5);
+}
+
+.btnContact {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.cardStyle .card {
+  margin: auto;
+}
+
+.priceStyle .price {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.priceStyle .this {
+  background-color: rgb(118, 118, 255);
+  color: white;
+}
+
+.price {
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 400px;
+  box-shadow: 0px 0px 15px rgba(247, 244, 244, 0.473);
+}
+
+.review {
+  padding: 20px 10px;
+  width: 350px;
+  height: 250px;
+  margin-bottom: 40px;
+  box-shadow: 0 3px 10px rgba(107, 106, 106, 0.5);
+}
+
+.rate .review {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.company {
+  /* border: 1px solid black; */
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(118, 118, 255);
+  color: white;
+  height: 500px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* darkmode */
+#darkmode {
+  background: black;
+  color: white;
+}
+
+#darkmode .navbar {
+  background: rgb(82, 82, 82) !important;
+}
+
+#darkmode .jarak ul li a {
+  color: white !important;
+}
+
+#darkmode .info-panel {
+  background: black;
+  color: white;
+}
+
+#darkmode .card {
+  color: black !important;
+}
+
+#darkmode .cardStyle .card p {
+  color: black !important;
+}
+
+#darkmode .cardStyle .card h2 {
+  color: black !important;
+}
+
+/* responsive dekstop */
+@media (min-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-carousal {
+    text-align: start !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .info-panel {
+    text-align: start;
+    background-color: white;
+  }
+
+  .info-panel h4 {
+    text-align: start;
+  }
+  .info-panel p {
+    text-align: start;
+  }
+  .info-panel img {
+    display: flex;
+    justify-content: start;
+  }
+
+  .priceStyle .price {
+    margin: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .company {
+    /* border: 1px solid black; */
+    width: 950px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(118, 118, 255);
+    color: white;
+    height: 300px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .card {
+    margin-right: 50px;
+  }
+
+  #darkmode {
+    background: black;
+    color: white;
+  }
+}
